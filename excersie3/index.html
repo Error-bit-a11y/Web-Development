@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        /* horizontal center */
+        align-items: center;
+        /* vertical center */
+        background-color: rgb(0, 0, 0);
+    }
+
+    .parent {
+        /* transform,filter or prespective  can also make an element appear as positioned */
+        margin: 96px;
+        padding: 9px;
+        border: 2px solid yellowgreen;
+        width: 513px;
+        height: 709px;
+        border-radius: 20px;
+        /* rounded box corners */
+        display: flex;
+        flex-direction: column;
+        /* stack items top to bottom */
+
+
+        overflow: hidden;
+        background-color: rgb(98, 40, 245);
+
+
+
+    }
+
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+        border: 2px solid;
+    }
+
+    p {
+        display: inline;
+        margin-right: 20px;
+        border: 2px solid black;
+        border-radius: 20px;
+        font-size: 100%;
+        padding: 8px 16px;
+        background-color: rgb(249, 26, 26);
+    }
+
+    .center {
+        display: block;
+        width: fit-content;
+        /* shrinks to content size */
+        padding: 10px 40px;
+        /* control horizontal size */
+        margin-top: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        background-color: rgb(52, 213, 231);
+        font-family: "Cantata One", serif;
+        font-weight: bold;
+        font-style: normal;
+        cursor: pointer;
+
+
+    }
+
+    h1 {
+        font-family: "LXGW WenKai TC", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+</style>
+
+<body>
+    <div class="parent">
+
+        <div class="box">
+            <img src="image.jpg" alt="Anime image">
+        </div>
+        <br>
+        <div class="row">
+            <p>life</p>
+            <p>death</p>
+        </div>
+        <h1>Stress hee stress</h1>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut suscipit enim porro, explicabo dolorum obcaecati
+        esse tempora provident eum distinctio quos eligendi omnis? Debitis accusantium corrupti in rerum, molestias
+        maxime.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate explicabo nostrum placeat, ducimus molestiae
+        ut eaque vitae, quidem repellat, asperiores modi? Ipsam perspiciatis adipisci natus sint rem commodi deserunt
+        fugiat?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore tenetur magnam aspernatur nesciunt dolorum
+        expedita ipsa minus delectus illo voluptatem esse deserunt recusandae quae repudiandae, aperiam aliquam cumque
+        rem accusantium?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quaerat suscipit corporis
+        reprehenderit explicabo eum non, distinctio modi tempora voluptates sequi saepe nam itaque accusantium
+        perferendis nisi, totam quae hic?
+        <button class="center">Read More</button>
+    </div>
+</body>
+
+</html>

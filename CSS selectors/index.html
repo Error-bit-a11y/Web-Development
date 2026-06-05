@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Selectors</title>
+    <style>
+        /* Elememnt selectos*/
+        /* div{ */
+        /* background-color: red; */
+        .red {
+            background-color: red;
+        }
+
+        /* } */
+        #green {
+            background-color: green;
+        }
+
+        div>p {
+            color: aquamarine;
+            background-color: blueviolet;
+        }
+
+        /* descendents selectors */
+        div p {
+            color: purple;
+            background-color: rgb(5, 153, 153);
+        }
+
+        /* universal selectors */
+        * {
+            color: blue;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(227, 132, 16);
+        }
+
+        a:visited {
+            color: yellow
+        }
+
+        a:link {
+            color: green
+        }
+
+        a:active {
+            background-color: rgb(153, 5, 131);
+        }
+
+        a:hover {
+            background-color: rgb(27, 7, 208);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="red">
+        I am a madarchod
+    </div>
+    <div id="green">
+        I am fucker
+        <article>
+            <p>i am a ludasur0</p>
+
+        </article>
+    </div>
+    <div>
+        <a href="htts://www.google.com">got to google</a>
+        <a href="htts://www.youtube.com">got to yt</a>
+    </div>
+</body>
+
+</html>

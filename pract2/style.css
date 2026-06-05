@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(86, 232, 195);
+    color:white
+}
+h1{
+    color: rgb(246, 235, 40);
+    background-color: rgb(145, 51, 232);
+}
+p{
+    color: rgb(203, 201, 53);
+    background-color: rgb(135, 30, 215);
+}
+label{
+    color: rgb(31, 22, 30);
+}
+textarea{
+    background-color: rgb(198, 87, 217);
+}

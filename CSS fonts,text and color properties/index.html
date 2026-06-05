@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS fonts,text and colort</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+
+        h1 {
+            font-family: "Bungee Shade", sans-serif;
+            font-weight: bolder;
+        }
+
+        p {
+
+            color: rgb(5, 221, 124);
+            font-size: 20px;
+            font-weight: 900;
+
+        }
+
+        h2 {
+            text-transform: uppercase;
+            text-decoration: underline;
+            color: rgb(218, 8, 8);
+            text-decoration-color: rgb(187, 5, 5);
+         text-decoration-style:solid;
+         text-decoration-thickness: 3px;
+        /* text-indent: 45px; */
+        width: 45px;
+        text-overflow: ellipsis;
+        }
+        .lp{
+            border: 2px solid rgb(238, 11, 11);
+            width: 45px;
+            text-overflow: ellipsis;
+            /* overflow: hidden; */
+            word-break: break-all;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>This is fucking nice</h1>
+        <h2>about fonts</h2>
+        <p>Today is nice a day</p>
+        <p class="lp">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur ipsa animi temporibus? Id quae illo harum
+            culpa cumque omnis ea neque fugit quisquam facere, libero fuga at non repellat error?</p>
+    </div>
+</body>
+
+</html>

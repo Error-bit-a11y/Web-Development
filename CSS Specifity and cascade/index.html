@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* specifity for this selector is 1 */
+    h1{
+        color: yellow;
+    }
+     /* specifity for this selector is 10 */
+
+    .cred{
+        color: aqua;
+
+    }
+     /* specifity for this selector is 10 */
+    .cblue{
+        color: rgb(108, 222, 21);
+    }
+     /* specifity for this selector is 10 */
+     /* after writing h1 specifity will be 1+10=11 */
+
+     /* note :-- important specifity is 10000; */
+     /* inline specfity = 1000 */
+    h1.cpink{
+        color: pink;
+    }
+
+    /* this is an example of attribute selector */
+    [data-x = a]{
+        color: blueviolet;
+    }
+</style>
+<body>
+    <h1 class = "cred , cpink , cblue" data-x ="a">CSS class specifity</h1>
+</body>
+</html>
