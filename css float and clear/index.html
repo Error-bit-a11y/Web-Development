@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS float and clear</title>
+</head>
+<style>
+    .card{
+        border: 2px solid black;
+    }
+    .cards{
+        border: 2px solid rgb(252, 96, 96);
+        display: flow-root;
+    }
+    img{
+        float: right;
+    }
+    .card:nth-child(3){
+        background-color: aqua;
+        clear: right;
+    }
+</style>
+<body>
+    <div class = "cards">
+        <img src="https://learn.zoner.com/wp-content/uploads/2025/04/zoner-ai-image-creator.jpg" alt="" width="700px">
+        <div class="card">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates magni nostrum neque nesciunt quas sequi quae incidunt quod porro non fugit cupiditate tempora quia repudiandae sunt, beatae eveniet sint quam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aliquid eius officia fugit. Quae, non doloremque expedita quasi aliquam, odit voluptatum quia quis voluptatem odio nemo voluptas reprehenderit ab fuga! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos nulla, error laborum necessitatibus debitis optio vel tenetur suscipit inventore. Minus, reiciendis molestiae dolores sequi deserunt nam consectetur porro commodi aut.</p>
+        </div>
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium numquam vero nulla ipsa cupiditate hic ab ea repellat laborum voluptatem labore est, at explicabo illum mollitia voluptate itaque voluptatibus.</div>
+        <div class="card">card 3</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        background-color: rgb(69, 67, 67);
+
+    }
+
+    .gg {
+        color: rgb(247, 190, 66);
+        /* background-color: rgb(49, 194, 143); */
+        display: inline;
+        font-size: 150px;
+        font-family: arial, sans-serif;
+        /* float: inline-end; */
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        /* horizontal center */
+        align-items: center;
+        /* vertical center */
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+        border: 2px solid yellow;
+        color: rgb(147, 40, 173);
+
+    }
+
+    input {
+        border-radius: 70px;
+        width: 641px;
+        height: 31px;
+        border: 2px solid red;
+    }
+</style>
+
+<body>
+    <div class="gg">
+        Google
+
+        <input type="text" id="search" placeholder="search google or type URL">
+        <div class="icon-group">
+            <i class="fa-solid fa-microphone" title="Search by voice"></i>
+            <i class="fa-solid fa-camera" title="Search by image"></i>
+            <i class="fa-solid fa-qrcode" title="Scan QR code"></i>
+        </div>
+
+    </div>
+</body>
+
+</html>
